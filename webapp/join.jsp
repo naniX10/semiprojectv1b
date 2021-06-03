@@ -61,7 +61,7 @@
         			alert('비번 입력해줘잉~');
         		else if (frm.chkpwd.value == '')
         			alert('비번확인 입력해!');
-        		else if (frm.chkpwd.value != frm.chkpwd.value)
+        		else if (frm.chkpwd.value != frm.passwd.value)
         			alert('비번이랑 비번확인이랑 안맞는데?');
         		else if (frm.name.value == '')
         			alert('님 이름 없음?');
